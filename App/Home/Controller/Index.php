@@ -12,7 +12,7 @@ class Index extends Controller {
     }
 
     public function index() {
-        var_dump(request()->create('https://www.w3cschool.cn/'));
+        var_dump(request()->create('https://www.zhihu.com/'));
         $this->params('data', $this->param);
         $this->load();
     }
